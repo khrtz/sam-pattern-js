@@ -1,3 +1,4 @@
+// @flow
 import {
   elementOpen,
   elementClose,

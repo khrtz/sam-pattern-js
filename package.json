@@ -6,7 +6,8 @@
   "scripts": {
     "watch": "webpack-dev-server --hot --mode development --port 5555",
     "build": "webpack",
-    "lint": "eslint src --ext .js"
+    "lint": "eslint src --ext .js",
+    "type": "flow"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
@@ -20,6 +21,7 @@
     "eslint": "^5.16.0",
     "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-node": "^8.0.1",
+    "flow-bin": "^0.96.0",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0",
     "webpack-dev-server": "^3.2.1"
