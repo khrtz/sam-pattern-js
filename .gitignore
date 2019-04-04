@@ -1,0 +1,14 @@
+#logs
+*.log
+npm-debug.log*
+Thumbs.db
+
+# generated
+node_modules
+build/
+coverage/
+*.map
+public
+
+# OS X
+.DS_Store
