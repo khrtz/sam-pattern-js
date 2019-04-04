@@ -4,7 +4,7 @@ import {
 } from 'incremental-dom'
 import List from './list'
 
-export default function App(root: any) {
+export default function App(root/*:any*/) {
   const applyPatch = () => patch(root, render)
   applyPatch()
 }
