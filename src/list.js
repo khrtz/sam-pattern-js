@@ -3,6 +3,6 @@ import Hello from './hello'
 
 export default function() {
   elementOpen('div')
-    Hello()
+  Hello()
   elementClose('div')
-};
+}

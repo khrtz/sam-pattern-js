@@ -5,16 +5,21 @@
   "license": "MIT",
   "scripts": {
     "watch": "webpack-dev-server --hot --mode development --port 5555",
-    "build": "webpack"
+    "build": "webpack",
+    "lint": "eslint src --ext .js"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
     "@babel/preset-env": "^7.4.3",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.5",
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.7.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0",
     "webpack-dev-server": "^3.2.1"
