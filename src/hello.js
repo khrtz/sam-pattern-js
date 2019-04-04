@@ -6,8 +6,8 @@ import {
 
 export default function() {
   elementOpen('div')
-    elementOpen('h1')
-      text('hello, world!')
-    elementClose('h1')
+  elementOpen('h1')
+  text('hello, world!')
+  elementClose('h1')
   elementClose('div')
-};
+}
