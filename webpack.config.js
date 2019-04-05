@@ -8,7 +8,9 @@ module.exports = {
   mode: MODE,
   devtool: DEV ? "inline-source-map" : "source-map",
   entry: {
-    main: [__dirname + "/src/index"]
+    main: [
+      __dirname + "/src/hello/index"
+    ]
   },
   output: {
     path: __dirname + "/public",
